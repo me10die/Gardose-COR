@@ -8,6 +8,13 @@
     padding: 3rem;
   }
   
+  main {
+    border-color:black;
+    border-style: solid;
+    border-width: medium;
+    min-height: 100vh;
+  }
+  
   /* HEADER */
   header {
     display: flex;
@@ -32,3 +39,4 @@
   .registration_number h4 span {
     color: maroon;
   }
+
