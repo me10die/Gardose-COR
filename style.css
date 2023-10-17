@@ -14,6 +14,10 @@
     border-width: medium;
     min-height: 100vh;
   }
+
+  section {
+    padding-bottom: 1rem;
+  }
   
   /* HEADER */
   header {
@@ -40,3 +44,10 @@
     color: maroon;
   }
 
+  .general-info-header-1 {
+    background-color: #ddccff;
+    text-align: center;
+    padding: 0.3rem;
+    border-bottom: solid black;
+  }
+  
