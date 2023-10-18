@@ -217,13 +217,18 @@
     margin-left: 1rem;
   }
 
+  .third-section {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
   .assessed-fees {
     text-align: center;
     font-family: Arial, sans-serif;
     border: solid black;
-    margin-left: 50px;
-    margin-right: 620px;
-    margin-top: 30px;
+    height: fit-content;
   }
 
  .cell1 {
@@ -236,6 +241,13 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+
+  .rule {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
   }
 
   .cell2 {
@@ -278,7 +290,7 @@
     font-weight: bolder;  
     border-top: solid black;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .payment-sched {
@@ -286,29 +298,89 @@
     font-weight: bolder;
     letter-spacing: 9px;
     border-top: solid black;
+    border-bottom: solid black;
   }
 
+  .rule {
+    display: flex;
+    flex-direction: column;
+  }
   .rules-on-ref {
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-left: 50px;
-    margin-right: 620px;
-    margin-top: 30px;
+    flex-direction: column;
+   
   }
+
+  .total {
+    padding: 0.2rem;
+    border-top: solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .total div {
+    width: 40%;
+    text-align: end;
+  }
+
+  .total h5 {
+    margin-right: 1.8rem;
+  }
+
 
   .rules-details {
     text-align: left;
     font-family: Arial, sans-serif;
-    border: solid black;
-    margin-left: 50px;
-    margin-right: 620px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .receipt {
-
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+ 
   }
 
   .validation {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+  
+  }
 
+  .note-2 {
+    background-color: #ccd2fb;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .approved {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .payment-table {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 10rem;
+    align-items: center;
+  }
+  
+  footer p {
+    text-align: end;
+  }
+  
+  footer div {
+    background-color: #ccd2fb;
+    border-top: solid 2px black;
+    text-align: center;
+    padding: 0.1rem;
   }
