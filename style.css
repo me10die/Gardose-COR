@@ -256,12 +256,12 @@
   }
 
   .total-assessment {
-    text-align: center;
+    text-align: right;
     background-color: #ccd2fb;
     font-family: Arial, sans-serif; 
     display: flex;
     border-top: solid black;
-    gap: 6rem;
+    gap: 2rem;
   }     
 
   .total-payment {
@@ -286,4 +286,29 @@
     font-weight: bolder;
     letter-spacing: 9px;
     border-top: solid black;
+  }
+
+  .rules-on-ref {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+    margin-right: 620px;
+    margin-top: 30px;
+  }
+
+  .rules-details {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    border: solid black;
+    margin-left: 50px;
+    margin-right: 620px;
+    margin-top: 30px;
+  }
+
+  .receipt {
+
+  }
+
+  .validation {
+
   }
