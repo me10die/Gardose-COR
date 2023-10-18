@@ -221,14 +221,17 @@
     text-align: center;
     font-family: Arial, sans-serif;
     border: solid black;
+    margin-left: 50px;
+    margin-right: 620px;
+    margin-top: 30px;
   }
 
-.cell1 {
+ .cell1 {
   background-color: #ccd2fb;
   font-weight: bolder;
   letter-spacing: 9px;
   border-bottom: solid black;
-}
+ }
   .fees-details {
     display: flex;
     width: 100%;
@@ -253,9 +256,34 @@
   }
 
   .total-assessment {
+    text-align: center;
+    background-color: #ccd2fb;
+    font-family: Arial, sans-serif; 
+    display: flex;
+    border-top: solid black;
+    gap: 6rem;
+  }     
+
+  .total-payment {
     background-color: #ccd2fb;
     font-weight: bolder;  
     border-top: solid black;
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .balance {
+    background-color: #ccd2fb;
+    font-weight: bolder;  
+    border-top: solid black;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .payment-sched {
+    background-color: #ccd2fb;
+    font-weight: bolder;
+    letter-spacing: 9px;
+    border-top: solid black;
   }
